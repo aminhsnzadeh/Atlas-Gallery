@@ -1,0 +1,86 @@
+$pri-color: #33c5ff;
+$sec-color: #93d4ff;
+// $ter-color:;
+$nat-color-light: #fff;
+$nat-color-dark: #000;
+$nat-color-grey: #4a4a4a;
+$font-sec: sans-serif;
+$font-main: 'Plus Jakarta Sans', $font-sec;
+$font-size: 16px;
+.btn-primary {
+    background-color: $pri-color;
+    border: 3px solid $pri-color;
+    color: $nat-color-light;
+    outline: none;
+    padding: 14px 38px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 1.5rem;
+    &:hover {
+        background-color: $sec-color;
+        border: 3px solid $sec-color;
+    }
+}
+.btn-secondary {
+    color: $nat-color-light;
+    background-color: transparent;
+    border: 3px solid $pri-color;
+    outline: none;
+    padding: 14px 38px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 1.5rem;
+    &:hover {
+        background-color: $pri-color;
+    }
+}
+.btn-dark {
+    background-color: $nat-color-dark;
+    color: $nat-color-light;
+    border: none;
+    outline: none;
+    padding: 14px 38px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 1.5rem 0;
+    &:hover {
+        background-color: $nat-color-grey;
+    }
+}
+.btn-light {
+    background-color: $nat-color-light;
+    color: $nat-color-dark;
+    border: none;
+    outline: none;
+    padding: 14px 38px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 1.5rem 0;
+    &:hover {
+        background-color: $nat-color-dark;
+        color: $nat-color-light;
+    }
+    &.active {
+        background-color: $nat-color-dark;
+        color: $nat-color-light;
+    }
+}
+
+// .btn-secondary {
+
+// }
+// .btn-dark {
+
+// }
