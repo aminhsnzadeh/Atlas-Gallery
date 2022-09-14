@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/projects/atlas-gallery/static/css/main.09c4557f.css",
+    "main.js": "/projects/atlas-gallery/static/js/main.de445e2d.js",
+    "static/media/bootstrap-icons.woff?": "/projects/atlas-gallery/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/projects/atlas-gallery/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/back.jpg": "/projects/atlas-gallery/static/media/back.fc526b42d644e206e942.jpg",
+    "index.html": "/projects/atlas-gallery/index.html",
+    "main.09c4557f.css.map": "/projects/atlas-gallery/static/css/main.09c4557f.css.map",
+    "main.de445e2d.js.map": "/projects/atlas-gallery/static/js/main.de445e2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09c4557f.css",
+    "static/js/main.de445e2d.js"
+  ]
+}

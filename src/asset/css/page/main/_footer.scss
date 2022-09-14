@@ -1,0 +1,72 @@
+$pri-color: #33c5ff;
+$sec-color: #93d4ff;
+// $ter-color:;
+$nat-color-light: #fff;
+$nat-color-dark: #000;
+$nat-color-grey: #4a4a4a;
+$font-sec: sans-serif;
+$font-main: 'Plus Jakarta Sans', $font-sec;
+$font-size: 16px;
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #111;
+    color: white;
+    > h4 {
+        color: #bbb !important;
+        text-align: center;
+        padding-bottom: 3rem;
+        > a {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+    > section {
+        max-width: 1400px;
+        margin: 0 auto;
+        height: auto;
+        padding: 4rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        > article, > div {
+            width: 50%;
+            height: auto;
+            padding: 0 2rem;
+            height: 200px;
+        }
+        > article {
+            padding-top: 2rem;
+            > h2 {
+                margin-bottom: 1rem;
+            }
+            > p {
+                color: #999 !important;
+            }
+        }
+        > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            flex-wrap: wrap;
+            > ul {
+                width: 120px;
+                margin: 1rem 0;
+                .foot-list-head {
+                    color: #ccc;
+                    font-size: 1.1rem;
+                    margin-bottom: 0.5rem;
+                }
+                > li {
+                    margin: 0.25rem 0;
+                    font-size: 0.8rem;
+                    a {
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
